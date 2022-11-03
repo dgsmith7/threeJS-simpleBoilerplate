@@ -84,6 +84,7 @@ function onWindowResize() {
 function buildIt() {
     //  put all of your geometry and materials in here
     geometry = new THREE.BoxGeometry(2, 2, 2);
+//    geometry = new THREE.TorusKnotGeometry( 10, 3, 100, 16 );
     material = new THREE.MeshPhongMaterial({
         color: "purple",
         side: THREE.DoubleSide,
